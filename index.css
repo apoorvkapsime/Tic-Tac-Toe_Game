@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(223deg, #f4f4f480, #0b0b0b80), url("bcg1.jpg");
+  background-size: contain;
+  min-height: 100vh;
+  filter: opacity(0.7);
+  /* z-index: -1; */
+  background-position: top right;
+  /* background-repeat: no-repeat; */
+}
+h2 {
+  text-align: center;
+  color: red;
+  filter: opacity(1);
+  font-weight: bolder;
+  font-size: 4.5em;
+  margin: 2%;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background-color: white; */
+}
+.tables {
+  border: 5px solid #837171;
+  background-color: black;
+}
+.box {
+  border: 2px solid white;
+  height: 70vmin;
+  width: 70vmin;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 7px; */
+  background-color: black;
+}
+
+/* #item-1,
+#item-2,
+#item-3 {
+  border-top: 0px;
+}
+#item-1,
+#item-4,
+#item-7 {
+  border-left: 0px;
+}
+#item-3,
+#item-6,
+#item-9 {
+  border-right: 0px;
+}
+#item-7,
+#item-8,
+#item-9 {
+  border-bottom: 0px;
+} */
+.cross {
+  /* background-color: red; */
+  background: url("cross1.png");
+  background-size: contain;
+}
+.oval {
+  /* background-color: blue; */
+  background: url("oval1.png");
+  background-size: contain;
+  filter: invert(100%);
+}
